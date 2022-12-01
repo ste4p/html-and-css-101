@@ -1,0 +1,20 @@
+html { 
+    font-family: 'DM Sans', sans-serif;
+}
+
+span {
+    color: orange;
+  }
+
+  .keySection {
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+    padding: 8px;
+ }
+
+ #work {
+    padding: 12px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid black;
+}

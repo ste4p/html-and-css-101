@@ -1,0 +1,159 @@
+body {
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navigation{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  z-index: 1000;
+
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navigation li {
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding: 20px;
+  display: inline-block;
+}
+
+.navigation  li.logo {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+#banner {
+  background-image: url("https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
+  background-size: cover;
+  background-position: bottom center;
+  height: 400px;
+  width: 100%;
+  position: relative;
+  top: 50px;
+}
+
+#banner .content h1 {
+  border: 3px solid white;
+  border-radius: 15px;
+  position: relative;
+  top: 120px;
+  width: 400px;
+  margin: 0 auto;
+  min-width: 60vw;
+  padding: 12px;
+
+}
+
+#main {
+  margin: 0 auto;
+  padding: 40px;
+  margin-top: 40px;
+  width: 80%; 
+  height: 1000px;
+  overflow: scroll;
+}
+
+
+#title{
+  width: 35%;
+  margin-right:5%;
+  float: left;
+
+}
+
+#article{
+  width: 60%;
+  float: right;
+}
+
+h1 {
+  color: white;
+  font-size: 42px;
+  font-weight: 600;
+  text-align: center;
+}
+
+h2 {
+  border: 1px dotted red;
+  color: red;
+  font-size: 14px;
+  line-height: 48px;
+  padding: 20px 30px;
+  margin: -30px 20px 30px 20px;
+  text-align: center;
+}
+
+h3 {
+  color: red;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+p {
+  color: grey;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px 20px;
+}
+
+.pull-quote {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.pull-quote::before {
+  display: block;
+  content: "";
+  width: 30px; 
+  height: 30px;
+  border-radius: 100%;
+  border: 20px solid red;
+  position: relative;
+  left: -20px;
+
+}
+
+.byline {
+  border-bottom: 1px solid LightGrey;
+  border-top: 1px solid LightGrey;
+  color: DarkGrey;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.share {
+  border: 1px solid LightGrey;
+  padding: 40px 0px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  clear: right;
+
+}
+
+.share a {
+  background: red;
+  border: 1px solid red;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.share a:hover {
+  background: white;
+  border: 1px solid red;
+  color: red;
+}
